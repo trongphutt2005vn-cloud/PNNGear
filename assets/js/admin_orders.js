@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     try {
       const response = await fetch(
-        "/ptgear/assets/api/admin_cancel_order.php",
+        "/PNNGear/assets/api/admin_cancel_order.php",
         {
           // Gọi API mới
           method: "POST",

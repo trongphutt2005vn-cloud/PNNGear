@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     let formData = new FormData(editForm);
     try {
-      let res = await fetch("/PTGear/assets/api/update_user.php", {
+      let res = await fetch("/PNNGear/assets/api/update_user.php", {
         method: "POST",
         body: formData,
       });
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     let formData = new FormData(deleteForm);
     try {
-      let res = await fetch("/PTGear/assets/api/delete_user.php", {
+      let res = await fetch("/PNNGear/assets/api/delete_user.php", {
         method: "POST",
         body: formData,
       });
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     let formData = new FormData(toggleForm);
     try {
-      let res = await fetch("/PTGear/assets/api/toggle_status.php", {
+      let res = await fetch("/PNNGear/assets/api/toggle_status.php", {
         method: "POST",
         body: formData,
       });
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     let formData = new FormData(addForm);
     try {
-      let res = await fetch("/PTGear/assets/api/add_user.php", {
+      let res = await fetch("/PNNGear/assets/api/add_user.php", {
         method: "POST",
         body: formData,
       });
