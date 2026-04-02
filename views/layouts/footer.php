@@ -6,9 +6,9 @@
             <!-- Liên hệ -->
             <div class="footer-section contact">
                 <h3 class="footer-title">Liên hệ</h3>
-                <p><i class="fa fa-map-marker"></i> QL91, Đường Lý Tự Trọng, Mỹ Xuyên, Long Xuyên, An Giang</p>
-                <p><i class="fa fa-phone"></i> 0919095024</p>
-                <p><i class="fa fa-envelope"></i> pnthanh311@gmail.com</p>
+                <p><i class="fa fa-map-marker"></i> Xa Lộ Hà Nội, Khu Công Nghệ Cao</p>
+                <p><i class="fa fa-phone"></i> 0886329147</p>
+                <p><i class="fa fa-envelope"></i> trongphutt2005vn@gmail.com</p>
             </div>
 
             <!-- Liên kết -->
@@ -41,7 +41,7 @@
 
         <!-- Footer bottom -->
         <div class="footer-bottom">
-            <p>© 2025 PTGear. Đã đăng ký bản quyền.</p>
+            <p>© 2025 PNNGear. Đã đăng ký bản quyền.</p>
         </div>
     </div>
 </footer>

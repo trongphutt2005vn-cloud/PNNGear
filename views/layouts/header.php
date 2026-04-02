@@ -12,10 +12,10 @@ $username = $_SESSION['username'] ?? 'Khách';
         <!-- Logo -->
         <div class="logo">
             <div class="logo-section">
-                <a href="index.php?page=home"><img src="assets/img/logo1.png" alt="PTGear"></a>
+                <a href="index.php?page=home"><img src="assets/img/logo.png" alt="PNNGear"></a>
             </div>
         </div>
-
+        
         <!-- Menu -->
         <div class="menu-section">
             <div class="menu">
