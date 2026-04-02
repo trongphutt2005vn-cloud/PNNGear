@@ -1,3 +1,21 @@
+
+<?php
+$page = $_GET['page'] ?? 'home';
+
+if ($page === 'lienhe') {
+    require_once __DIR__ . '/views/v_lienhe.php';
+    exit();
+}
+
+$apiPages = ['cart'];
+$action = $_GET['action'] ?? '';
+
+if (in_array($page, $apiPages) && !empty($action)) {
+    require_once __DIR__ . '/controllers/' . $page . '.php';
+    exit();
+}
+
+?>
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -29,13 +47,6 @@
 <body>
 
 <?php
-$page = $_GET['page'] ?? 'home';
-
-if ($page === 'lienhe') {
-    require_once __DIR__ . '/views/v_lienhe.php';
-    exit();
-}
-
 $controllerPath = __DIR__ . '/controllers/' . $page . '.php';
 
 if (file_exists($controllerPath)) {
@@ -45,6 +56,5 @@ if (file_exists($controllerPath)) {
     echo "Trang không tồn tại.";
 }
 ?>
-
 </body>
 </html>
